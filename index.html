@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.7.31/dist/sweetalert2.min.css
+"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-app">
+        <h2>To-Do List <img src="images/icon.png" /></h2>
+        <div class="row">
+          <input type="text" id="input-box" placeholder="Add Your Task" />
+          <button id="addBtn" onclick="addTask()">Add Task</button>
+        </div>
+        <ul id="list-container">
+          <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+        </ul>
+      </div>
+
+      <div class="copyright">
+        <div>
+          <p>Created By</p>
+          <h2>Farhan Aziz</h2>
+        </div>
+        <div class="email">farhanurrehman98@gmail.com</div>
+      </div>
+    </div>
+
+    <script src="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.7.31/dist/sweetalert2.all.min.js
+"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
